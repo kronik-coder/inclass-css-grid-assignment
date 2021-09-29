@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    height: 100vh;
+}
+div {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    justify-items: center;
+}
+img {
+    width: 40%;
+}
+.one {
+    grid-row: 1;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 0px;
+    padding: 10px;
+    height: 250px;
+}
+.two {
+    grid-row: 2;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 0px;
+    height: 250px;
+    padding: 10px;
+}
+.adidas {
+    width: 60%;
+}
+.beats {
+    justify-items: center;
+}
+.amazon {
+    width: 60%;
+}
+.apple {
+    justify-items: center;
+}
